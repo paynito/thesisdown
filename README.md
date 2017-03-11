@@ -1,4 +1,10 @@
-# thesisdown
+# thesisdown fork:
+
+### addresses an update to pandoc that deprecates chapters, trys to make the warning go away at the end of every compile
+### may make other adjustments, there are currently too many blank pages inserted
+between sections like acknowledgements and intro and toc for my taste.
+
+## original thesis down:
 
 This project was inspired by the [bookdown](http://github.com/rstudio/bookdown) package and is an updated version of my Senior Thesis template in the `reedtemplates` package [here](http://github.com/ismayc/reedtemplates).
 
@@ -16,16 +22,12 @@ Using **thesisdown** has some prerequisites which are described below. To compil
 
 ### Using thesisdown from Chester's GitHub
 
-To use **thesisdown** from RStudio:
+To use **thesisdown** bugfix fork:
 
-1) Install the latest [RStudio](http://www.rstudio.com/products/rstudio/download/).
-
-2) Install the **bookdown** and **thesisdown** packages: 
+1) Install the paynito **thesisdown** fork: 
 
 ```S
-install.packages("devtools")
-devtools::install_github("rstudio/bookdown")
-devtools::install_github("ismayc/thesisdown")
+devtools::install_github("paynito/thesisdown")
 ```
 
 3) Use the **New R Markdown** dialog to select **Thesis**:
